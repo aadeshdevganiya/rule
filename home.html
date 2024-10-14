@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rulebook</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/Group 65.png">
+</head>
+
+<body>
+
+    <div class="home-page">
+        <header class="main-header " id="myHeader">
+            <div class="container ">
+                <nav class="navbar navbar-expand-xl" aria-label="Main navigation">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/images/Group 20.png" alt="header-logo-img">
+                    </a>
+                    <div class="main-link-icon" id="navbarSupportedContent">
+                        <ul class="navbar-nav destop-nav mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="home.html">Home</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="" id="navbarDropdown" role="button">
+                                    Services <img src="assets/images/Vector (6).svg" class="down-icone arrow-down"
+                                        alt=""></a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="exibitor-media.html">Services 1</a>
+                                    <a class="dropdown-item" href="for-media.html">Services 2</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="" id="navbarDropdown" role="button">
+                                    About <img src="assets/images/Vector (6).svg" class="down-icone arrow-down"
+                                        alt=""></a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="exibitor-media.html">About 1</a>
+                                    <a class="dropdown-item" href="for-media.html">About 2</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="" id="navbarDropdown" role="button">
+                                    Resources <img src="assets/images/Vector (6).svg" class="down-icone arrow-down"
+                                        alt=""></a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="exibitor-media.html">Resources 1</a>
+                                    <a class="dropdown-item" href="for-media.html">Resources 2</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="home.html">Career</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="home.html">Contact Us</a>
+                            </li>
+                            <div class="common-btn">
+                                <a href="#">Request a Demo
+                                    <div class="btn-icon">
+                                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M8.60028 0L7.19028 1.41L12.7703 7H0.600281V9H12.7703L7.19028 14.59L8.60028 16L16.6003 8L8.60028 0Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </ul>
+
+                        <div class="header-end-icon">
+                            <a class="responsivemenu" href="#" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#mainOffcanvas" aria-controls="mainOffcanvas">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    viewBox="0,0,256,256" width="35px" height="35px" fill-rule="nonzero">
+                                    <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <g transform="scale(5.12,5.12)">
+                                            <path d="M0,7.5v5h50v-5zM0,22.5v5h50v-5zM0,37.5v5h50v-5z"></path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+                            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false"
+                                tabindex="-1" id="mainOffcanvas" aria-labelledby="mainOffcanvasLabel">
+                                <div class="offcanvas-header">
+                                    <div class="offcanvas-title" id="mainOffcanvasLabel">
+                                        <a class="navbar-brand" href="#">
+                                            <img src="assets/images/Group 20.png" alt="banner-img">
+                                        </a>
+                                    </div>
+                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="navbar-nav mobile-nav mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="home.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#" id="navbarDropdownOffcanvas" role="button"
+                                                data-bs-toggle="offcanvas" data-bs-target="#capabilitiesOffcanvas"
+                                                aria-controls="capabilitiesOffcanvas">Services <img
+                                                    src="assets/images/Vector (1).png" class="left-arrow"
+                                                    alt="dropdown-menu-img"></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#" id="navbarDropdownOffcanvas" role="button"
+                                                data-bs-toggle="offcanvas" data-bs-target="#capabilitiesOffcanvas"
+                                                aria-controls="capabilitiesOffcanvas">About <img
+                                                    src="assets/images/Vector (1).png" class="left-arrow"
+                                                    alt="dropdown-menu-img"></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#" id="navbarDropdownOffcanvas" role="button"
+                                                data-bs-toggle="offcanvas" data-bs-target="#capabilitiesOffcanvas"
+                                                aria-controls="capabilitiesOffcanvas">Resources <img
+                                                    src="assets/images/Vector (1).png" class="left-arrow"
+                                                    alt="dropdown-menu-img"></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="home.html">Career</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="home.html">Contact Us</a>
+                                        </li>
+
+                                    </ul>
+                                    <div class="common-btn">
+                                        <a href="#" class="">Request a Demo
+                                            <div class="btn-icon">
+                                                <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M8.60028 0L7.19028 1.41L12.7703 7H0.600281V9H12.7703L7.19028 14.59L8.60028 16L16.6003 8L8.60028 0Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="offcanvas offcanvas-start" tabindex="-1" id="capabilitiesOffcanvas"
+                                aria-labelledby="capabilitiesOffcanvasLabel">
+                                <div class="offcanvas-header">
+                                    <div class="offcanvas-title" id="mainOffcanvasLabel"><a class="navbar-brand"
+                                            href="#">
+                                            <img src="assets/images/Group 20.png" alt="logo">
+                                        </a>
+                                    </div>
+                                    <button id="backButton" class="back-btn" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#mainOffcanvas" aria-controls="mainOffcanvas">
+                                        <img src="assets/images/icons8-back-24.png" alt="back-img">
+                                    </button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="navbar-nav" aria-labelledby="navbarDropdownOffcanvas">
+                                        <li class="nav-item"><a class="nav-link" href="how-we-work.html">Show Info</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link"
+                                                href="industries-served.html">Features</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="#"> Exhibitor list</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#"> Floor Plan</a></li>
+                                        <div class="common-btn">
+                                            <a href="#">Request a Demo
+                                                <div class="btn-icon">
+                                                    <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M8.60028 0L7.19028 1.41L12.7703 7H0.600281V9H12.7703L7.19028 14.59L8.60028 16L16.6003 8L8.60028 0Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="banner-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <div class="banner-about">
+                                <h1>Rulebook &<span> Fee Schedule <img src="assets/images/Object.png" alt=""></span>
+                                    Updates for Global <br>
+                                    Trade Venues.</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque est sem,
+                                    hendrerit sed augue non.</p>
+                                <div class="banner-buttons">
+                                    <div class="common-btn">
+                                        <a href="#" class="">Request a Demo
+                                            <div class="btn-icon">
+                                                <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M8.60028 0L7.19028 1.41L12.7703 7H0.600281V9H12.7703L7.19028 14.59L8.60028 16L16.6003 8L8.60028 0Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="common-btn bordered">
+                                        <a href="#" class="">know more
+                                            <div class="btn-icon">
+                                                <svg width="21" height="22" viewBox="0 0 21 22" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_1_1846)">
+                                                        <path
+                                                            d="M0.915001 9.70843C0.817029 10.5019 0.817029 11.3044 0.915001 12.0979M4.6725 3.19843C5.31085 2.71653 6.00608 2.31502 6.7425 2.00293M1.602 7.14493C1.91362 6.40858 2.31463 5.71336 2.796 5.07493M7.521 13.6459V8.35393C7.521 7.74193 8.232 7.35493 8.811 7.65193L13.9725 10.2994C14.106 10.3615 14.219 10.4604 14.2981 10.5845C14.3773 10.7086 14.4193 10.8527 14.4193 10.9999C14.4193 11.1471 14.3773 11.2913 14.2981 11.4154C14.219 11.5395 14.106 11.6384 13.9725 11.7004L8.8125 14.3479C8.232 14.6449 7.521 14.2579 7.521 13.6459Z"
+                                                            stroke="white" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path
+                                                            d="M10.518 1.25C15.843 1.25 20.1585 5.615 20.1585 11C20.1585 16.385 15.843 20.75 10.518 20.75C6.84901 20.75 3.65851 18.677 2.02951 15.626"
+                                                            stroke="white" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_1_1846">
+                                                            <rect width="21" height="21" fill="white"
+                                                                transform="translate(0 0.5)" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="down-arrow">
+                                    <a href="#about"><img src="assets/images/Group 25.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="banner-img">
+                                <img src="assets/images/image (2).png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about-rulebook" id="about">
+                <div class="container">
+                    <div class="common-heading">
+                        <div class="shadow-text">WHO WE ARE?</div>
+                        <h2>about <span>rulebook</span></h2>
+                        <p>Rulebook Company specializes in providing comprehensive
+                            and timely updates on trade venue rulebooks and fee
+                            schedules, addressing a critical need for financial institutions
+                            to stay compliant and informed in an ever-evolving regulatory
+                            landscape. Rulebook Company ensures that clients can
+                            navigate complex regulatory requirements with ease.
+                            <br><br>Our expertise lies in reviewing complex updates using modern
+                            technology such as Large Language Models to break down
+                            complex updates into actionable insights. This helps banks
+                            and businesses maintain compliance, mitigate risks, and
+                            optimize their operations in the financial industry.
+                        </p>
+                        <div class="common-btn">
+                            <a href="#" class="">know more
+                                <div class="btn-icon">
+                                    <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.60028 0L7.19028 1.41L12.7703 7H0.600281V9H12.7703L7.19028 14.59L8.60028 16L16.6003 8L8.60028 0Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                    <div class="about-img">
+                        <img src="assets/images/image.png" alt="">
+                        <a href=""><img src="assets/images/Vector2.png" alt=""></a>
+                    </div>
+               
+            </section>
+            <section class="services-rulebook">
+                <div class="container">
+                    <div class="common-heading">
+                        <div class="shadow-text">SERVICES</div>
+                        <h2>what we <span>serve</span></h2>
+                    </div>
+                    <div class="row responsive">
+                        <div class="col-xxl-4 col-xl-6">
+                            <div class="card-main">
+                                <div class="icone">
+                                    <svg width="51" height="49" viewBox="0 0 51 49" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.2215 0.952357H11.7947C20.3316 0.952357 28.8685 0.908379 37.4053 0.976984C40.0722 0.998094 42.5027 1.85479 44.5911 3.65437C46.5789 5.36775 47.7818 7.48926 48.3392 9.99601C48.535 10.8756 48.5861 11.7973 48.6091 12.7015C48.6496 14.3674 48.639 16.0368 48.6161 17.7045C48.5808 20.3643 48.0288 22.8745 46.4008 25.0664C44.7604 27.2741 42.5504 28.6198 39.9434 29.3745C39.797 29.4167 39.5783 29.3041 39.4249 29.2109C39.2785 29.1229 39.1744 28.9681 39.051 28.8432C29.9197 19.7345 20.7867 10.6258 11.6501 1.52055C11.4896 1.36047 11.2868 1.24085 11.1033 1.10188C11.1421 1.05263 11.1809 1.00161 11.2197 0.952357H11.2215Z"
+                                            fill="white" />
+                                        <path
+                                            d="M0.938477 18.2005C7.37463 18.2005 13.6856 18.1988 19.9947 18.2111C20.1834 18.2111 20.418 18.3131 20.5521 18.445C30.5123 28.3647 40.4655 38.2932 50.4187 48.2217C50.4311 48.234 50.4346 48.2551 50.4787 48.3536H49.9619C43.8697 48.3536 37.7757 48.3589 31.6835 48.3396C31.396 48.3396 31.0309 48.2112 30.8316 48.0124C20.9736 38.2053 11.1298 28.3841 1.28595 18.5647C1.19599 18.4749 1.11133 18.3817 0.938477 18.2005Z"
+                                            fill="white" />
+                                        <path
+                                            d="M4.55959 31.9885C10.0221 37.4365 15.4864 42.8863 20.9419 48.3255H4.55959V31.9885Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                                <h4>
+                                    Rulebook Updates
+
+                                </h4>
+                                <svg width="111" height="5" viewBox="0 0 111 5" class="svg-bottom" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.74884 3.05805C15.7577 3.03187 29.7462 2.82548 43.7702 3.00671C57.7188 3.18729 71.657 3.8059 85.6056 4.08114C93.4615 4.23685 101.31 4.19294 109.1 3.73802C112.339 3.54925 111.138 0.335227 107.864 0.579876C106.76 0.663362 105.659 0.739552 104.565 0.863324C102.073 1.14555 102.726 3.3078 105.026 3.52829C106.155 3.63762 107.281 3.69954 108.415 3.76676C108.233 2.70535 108.047 1.64129 107.864 0.579876C94.1906 1.43219 80.3242 0.809093 66.5559 0.499015C52.5971 0.183481 38.6526 0.192408 24.7466 0.611512C16.9777 0.845585 9.2143 1.13968 1.51392 1.73286C0.333568 1.82315 0.540364 3.05997 1.74487 3.05788L1.74884 3.05805Z"
+                                        fill="#1D6FB8" />
+                                </svg>
+                                <ul>
+                                    <li>Weekly summaries of rulebook changes for exchanges, MTFs (Multilateral Trading
+                                        Facilities), and OTFs (Organized Trading Facilities).</li> <br>
+                                    <li>Large language models monitor and distill complex updates into
+                                        easy-to-understand summaries, ensuring clients are always informed. </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-xxl-4 col-xl-6">
+                            <div class="card-main">
+                                <div class="icone">
+                                    <svg width="59" height="59" viewBox="0 0 59 59" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M37.6125 41.0541L41.0542 37.6125L31.9584 28.5166V17.2083H27.0417V30.4833L37.6125 41.0541ZM29.5 54.0833C26.0993 54.0833 22.9035 53.4376 19.9125 52.1461C16.9216 50.8547 14.3198 49.1035 12.1073 46.8927C9.89482 44.6818 8.14366 42.0801 6.85386 39.0875C5.56405 36.0948 4.91833 32.899 4.91669 29.5C4.91505 26.1009 5.56077 22.9051 6.85386 19.9125C8.14694 16.9198 9.89809 14.3181 12.1073 12.1073C14.3165 9.89639 16.9183 8.14524 19.9125 6.85379C22.9068 5.56235 26.1026 4.91663 29.5 4.91663C32.8974 4.91663 36.0933 5.56235 39.0875 6.85379C42.0818 8.14524 44.6835 9.89639 46.8927 12.1073C49.102 14.3181 50.8539 16.9198 52.1486 19.9125C53.4434 22.9051 54.0883 26.1009 54.0834 29.5C54.0784 32.899 53.4327 36.0948 52.1462 39.0875C50.8597 42.0801 49.1085 44.6818 46.8927 46.8927C44.677 49.1035 42.0752 50.8555 39.0875 52.1486C36.0998 53.4417 32.904 54.0866 29.5 54.0833Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                                <h4>
+                                    Fee Schedule Updates
+
+                                </h4>
+                                <svg width="111" height="5" viewBox="0 0 111 5" class="svg-bottom" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.74884 3.05805C15.7577 3.03187 29.7462 2.82548 43.7702 3.00671C57.7188 3.18729 71.657 3.8059 85.6056 4.08114C93.4615 4.23685 101.31 4.19294 109.1 3.73802C112.339 3.54925 111.138 0.335227 107.864 0.579876C106.76 0.663362 105.659 0.739552 104.565 0.863324C102.073 1.14555 102.726 3.3078 105.026 3.52829C106.155 3.63762 107.281 3.69954 108.415 3.76676C108.233 2.70535 108.047 1.64129 107.864 0.579876C94.1906 1.43219 80.3242 0.809093 66.5559 0.499015C52.5971 0.183481 38.6526 0.192408 24.7466 0.611512C16.9777 0.845585 9.2143 1.13968 1.51392 1.73286C0.333568 1.82315 0.540364 3.05997 1.74487 3.05788L1.74884 3.05805Z"
+                                        fill="#1D6FB8" />
+                                </svg>
+                                <ul>
+                                    <li>Timely updates on fee schedules, essential for accurate execution cost
+                                        calculations.</li> <br>
+                                    <li>Helps clients maintain compliance and avoid financial and reputational damage
+                                        due to incorrect fee applications. </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xxl-4 col-xl-6">
+                            <div class="card-main">
+                                <div class="icone">
+                                    <svg width="62" height="62" viewBox="0 0 62 62" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M41.3333 7.75C42.0185 7.75 42.6756 8.02217 43.16 8.50664C43.6445 8.99111 43.9167 9.64819 43.9167 10.3333V12.9167H49.0833C50.3868 12.9163 51.6423 13.4085 52.5981 14.2949C53.5539 15.1812 54.1393 16.396 54.2371 17.6958L54.25 18.0833V49.0833C54.2504 50.3868 53.7581 51.6423 52.8718 52.5981C51.9855 53.5539 50.7706 54.1393 49.4708 54.2371L49.0833 54.25H12.9167C11.6132 54.2504 10.3577 53.7581 9.40192 52.8718C8.44613 51.9855 7.86068 50.7706 7.76292 49.4708L7.75 49.0833V18.0833C7.74959 16.7798 8.24188 15.5244 9.1282 14.5686C10.0145 13.6128 11.2293 13.0273 12.5292 12.9296L12.9167 12.9167H18.0833V10.3333C18.0833 9.64819 18.3555 8.99111 18.84 8.50664C19.3244 8.02217 19.9815 7.75 20.6667 7.75C21.3518 7.75 22.0089 8.02217 22.4934 8.50664C22.9778 8.99111 23.25 9.64819 23.25 10.3333V12.9167H38.75V10.3333C38.75 9.64819 39.0222 8.99111 39.5066 8.50664C39.9911 8.02217 40.6482 7.75 41.3333 7.75ZM38.2953 24.2291L27.3368 35.1876L23.6814 31.5347C23.1942 31.0642 22.5416 30.8038 21.8643 30.8097C21.187 30.8156 20.539 31.0872 20.0601 31.5662C19.5811 32.0452 19.3094 32.6931 19.3035 33.3705C19.2976 34.0478 19.558 34.7004 20.0286 35.1876L25.4897 40.6513C25.7321 40.8939 26.0198 41.0863 26.3365 41.2175C26.6532 41.3488 26.9927 41.4164 27.3355 41.4164C27.6784 41.4164 28.0179 41.3488 28.3346 41.2175C28.6513 41.0863 28.939 40.8939 29.1813 40.6513L41.9482 27.8819C42.1949 27.6436 42.3917 27.3586 42.5271 27.0434C42.6625 26.7282 42.7337 26.3892 42.7367 26.0462C42.7397 25.7032 42.6744 25.363 42.5445 25.0455C42.4146 24.7281 42.2227 24.4396 41.9802 24.1971C41.7376 23.9545 41.4492 23.7627 41.1317 23.6328C40.8142 23.5029 40.4741 23.4375 40.131 23.4405C39.788 23.4435 39.449 23.5148 39.1339 23.6502C38.8187 23.7855 38.5336 23.9823 38.2953 24.2291Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                                <h4>
+                                    Regulator Updates
+                                </h4>
+                                <svg width="111" height="5" viewBox="0 0 111 5" class="svg-bottom" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.74884 3.05805C15.7577 3.03187 29.7462 2.82548 43.7702 3.00671C57.7188 3.18729 71.657 3.8059 85.6056 4.08114C93.4615 4.23685 101.31 4.19294 109.1 3.73802C112.339 3.54925 111.138 0.335227 107.864 0.579876C106.76 0.663362 105.659 0.739552 104.565 0.863324C102.073 1.14555 102.726 3.3078 105.026 3.52829C106.155 3.63762 107.281 3.69954 108.415 3.76676C108.233 2.70535 108.047 1.64129 107.864 0.579876C94.1906 1.43219 80.3242 0.809093 66.5559 0.499015C52.5971 0.183481 38.6526 0.192408 24.7466 0.611512C16.9777 0.845585 9.2143 1.13968 1.51392 1.73286C0.333568 1.82315 0.540364 3.05997 1.74487 3.05788L1.74884 3.05805Z"
+                                        fill="#1D6FB8" />
+                                </svg>
+                                <ul>
+                                    <li>Continuous monitoring and updates on regulatory changes from major financial
+                                        regulators.</li> <br>
+                                    <li>Ensures clients are compliant with the latest rules and guidelines. </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col-xxl-4 col-xl-6">
+                            <div class="card-main">
+                                <div class="icone">
+                                    <svg width="62" height="62" viewBox="0 0 62 62" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M41.3333 7.75C42.0185 7.75 42.6756 8.02217 43.16 8.50664C43.6445 8.99111 43.9167 9.64819 43.9167 10.3333V12.9167H49.0833C50.3868 12.9163 51.6423 13.4085 52.5981 14.2949C53.5539 15.1812 54.1393 16.396 54.2371 17.6958L54.25 18.0833V49.0833C54.2504 50.3868 53.7581 51.6423 52.8718 52.5981C51.9855 53.5539 50.7706 54.1393 49.4708 54.2371L49.0833 54.25H12.9167C11.6132 54.2504 10.3577 53.7581 9.40192 52.8718C8.44613 51.9855 7.86068 50.7706 7.76292 49.4708L7.75 49.0833V18.0833C7.74959 16.7798 8.24188 15.5244 9.1282 14.5686C10.0145 13.6128 11.2293 13.0273 12.5292 12.9296L12.9167 12.9167H18.0833V10.3333C18.0833 9.64819 18.3555 8.99111 18.84 8.50664C19.3244 8.02217 19.9815 7.75 20.6667 7.75C21.3518 7.75 22.0089 8.02217 22.4934 8.50664C22.9778 8.99111 23.25 9.64819 23.25 10.3333V12.9167H38.75V10.3333C38.75 9.64819 39.0222 8.99111 39.5066 8.50664C39.9911 8.02217 40.6482 7.75 41.3333 7.75ZM38.2953 24.2291L27.3368 35.1876L23.6814 31.5347C23.1942 31.0642 22.5416 30.8038 21.8643 30.8097C21.187 30.8156 20.539 31.0872 20.0601 31.5662C19.5811 32.0452 19.3094 32.6931 19.3035 33.3705C19.2976 34.0478 19.558 34.7004 20.0286 35.1876L25.4897 40.6513C25.7321 40.8939 26.0198 41.0863 26.3365 41.2175C26.6532 41.3488 26.9927 41.4164 27.3355 41.4164C27.6784 41.4164 28.0179 41.3488 28.3346 41.2175C28.6513 41.0863 28.939 40.8939 29.1813 40.6513L41.9482 27.8819C42.1949 27.6436 42.3917 27.3586 42.5271 27.0434C42.6625 26.7282 42.7337 26.3892 42.7367 26.0462C42.7397 25.7032 42.6744 25.363 42.5445 25.0455C42.4146 24.7281 42.2227 24.4396 41.9802 24.1971C41.7376 23.9545 41.4492 23.7627 41.1317 23.6328C40.8142 23.5029 40.4741 23.4375 40.131 23.4405C39.788 23.4435 39.449 23.5148 39.1339 23.6502C38.8187 23.7855 38.5336 23.9823 38.2953 24.2291Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                                <h4>
+                                    Regulator Updates
+                                </h4>
+                                <svg width="111" height="5" viewBox="0 0 111 5" class="svg-bottom" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.74884 3.05805C15.7577 3.03187 29.7462 2.82548 43.7702 3.00671C57.7188 3.18729 71.657 3.8059 85.6056 4.08114C93.4615 4.23685 101.31 4.19294 109.1 3.73802C112.339 3.54925 111.138 0.335227 107.864 0.579876C106.76 0.663362 105.659 0.739552 104.565 0.863324C102.073 1.14555 102.726 3.3078 105.026 3.52829C106.155 3.63762 107.281 3.69954 108.415 3.76676C108.233 2.70535 108.047 1.64129 107.864 0.579876C94.1906 1.43219 80.3242 0.809093 66.5559 0.499015C52.5971 0.183481 38.6526 0.192408 24.7466 0.611512C16.9777 0.845585 9.2143 1.13968 1.51392 1.73286C0.333568 1.82315 0.540364 3.05997 1.74487 3.05788L1.74884 3.05805Z"
+                                        fill="#1D6FB8" />
+                                </svg>
+                                <ul>
+                                    <li>Continuous monitoring and updates on regulatory changes from major financial
+                                        regulators.</li> <br>
+                                    <li>Ensures clients are compliant with the latest rules and guidelines. </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <section class="technology-rulebook">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-5">
+                            <img src="assets/images/image (1).png" alt="">
+                        </div>
+                        <div class="col-xl-7">
+                            <div class="common-heading">
+                                <div class="shadow-text">Innovation</div>
+                                <h2>technology <span>solution</span></h2>
+                                <p>Rulebook Company utilizes proprietary modern technology and large language models to
+                                    continuously monitor and summarize rulebook or fee schedule updates from various
+                                    trade trading venues. These updates are analyzed and simplified into actionable
+                                    insights delivered to clients’ inboxes weekly. The technology ensures that all
+                                    relevant changes are highlighted through color-coded, side-by-side analysis, making
+                                    it easy to identify text deletions, amendments, or additions.</p>
+                                <div class="common-btn">
+                                    <a href="#" class="">Request a Demo
+                                        <div class="btn-icon">
+                                            <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M8.60028 0L7.19028 1.41L12.7703 7H0.600281V9H12.7703L7.19028 14.59L8.60028 16L16.6003 8L8.60028 0Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="rulebook-companys">
+                <div class="container">
+                    <div class="common-heading">
+                        <div class="shadow-text">Rulebook Company’s</div>
+                        <h2>Unique <span>“Wow” </span>Factor</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-3 col-sm-6">
+                            <div class="factors">
+                                <div class="icone">
+                                    <img src="assets/images/file-icons_precision.png" alt="">
+                                </div>
+                                <h4>Precision &
+                                    Simplicity</h4>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-sm-6">
+                            <div class="factors">
+                                <div class="icone">
+                                    <img src="assets/images/bxs_time-five.png" alt="">
+                                </div>
+                                <h4>Timely & Automated
+                                    Delivery</h4>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-sm-6">
+                            <div class="factors">
+                                <div class="icone">
+                                    <img src="assets/images/ri_user-5-fill.png" alt="">
+                                </div>
+                                <h4>User-Friendly
+                                    Technology Interface</h4>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-sm-6">
+                            <div class="factors">
+                                <div class="icone">
+                                    <img src="assets/images/iconamoon_category-fill.png" alt="">
+                                </div>
+                                <h4>Customization &
+                                    Scalability</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-section">
+                <div class="container">
+                    <div class="row main-contc gy-5">
+                        <div class="col-xl-6">
+                            <div class="contact-image">
+                                <img src="assets/images/image2.png" alt="Contact Image" class="img-fluid rounded-3">
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="contact-form">
+                                <div class="common-heading">
+                                    <div class="shadow-text">Let's talk</div>
+                                    <h2>get in <span>touch</span></h2>
+                                </div>
+                                <form action="" method="post" class="form">
+                                    <div class="row">
+                                        <div class="col-xl-6">
+                                            <label for="first-name" class="form-label text-light">First Name
+                                                <span>*</span></label>
+                                            <input type="text" id="first-name" name="first-name" placeholder="Enter"
+                                                class="form-control" required>
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <label for="last-name" class="form-label text-light">Last Name
+                                                <span>*</span></label>
+                                            <input type="text" id="last-name" name="last-name" placeholder="Enter"
+                                                class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-6">
+                                            <label for="email" class="form-label text-light">Email
+                                                <span>*</span></label>
+                                            <input type="email" id="email" name="email" placeholder="Enter"
+                                                class="form-control" required>
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <label for="phone" class="form-label text-light">Phone No
+                                                <span>*</span></label>
+                                            <input type="tel" id="phone" name="phone" placeholder="Enter"
+                                                class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <div class="div">
+                                        <label for="message" class="form-label text-light">Message
+                                            <span>*</span></label>
+                                        <textarea id="message" name="message" placeholder="Enter" class="form-control"
+                                            rows="4" required></textarea>
+                                    </div>
+                                    <div class="common-btn">
+                                        <a href="#">Request a Demo
+                                            <div class="btn-icon">
+                                                <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M8.60028 0L7.19028 1.41L12.7703 7H0.600281V9H12.7703L7.19028 14.59L8.60028 16L16.6003 8L8.60028 0Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="footer-main">
+                    <div class="footer-bot-top-btn  ">
+                        <a href="#" class="scroll-to-top wow animate__animated animate__pulse animate__infinite"
+                            id="scroll-to-top"><img src="assets/images/Vector (7).svg"
+                                alt="top-to-bottom-footer-btn-img"></a>
+                    </div>
+
+                    <div class="row">
+                        <!-- Company Info -->
+                        <div class="col-xl-4">
+                            <img src="assets/images/Group 20.png" alt="Rulebook Logo" class="footer-img">
+                            <p class="about-text">
+                                Rulebook Company specializes in providing comprehensive and timely updates on trade
+                                venue
+                                rulebooks and fee schedules. By addressing the critical need for financial institutions
+                                to
+                                stay compliant and informed in an ever-evolving regulatory landscape, Rulebook Company
+                                ensures that clients can navigate complex regulatory requirements with ease.
+                            </p>
+                            <div class="common-btn">
+                                <a href="#">Request a Demo
+                                    <div class="btn-icon">
+                                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M8.60028 0L7.19028 1.41L12.7703 7H0.600281V9H12.7703L7.19028 14.59L8.60028 16L16.6003 8L8.60028 0Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Quick Links -->
+                        <div class="col-xl-2">
+                            <h5>Quick Links</h5>
+                            <svg width="111" height="5" viewBox="0 0 111 5" class="svg-bottom" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M1.74884 3.05805C15.7577 3.03187 29.7462 2.82548 43.7702 3.00671C57.7188 3.18729 71.657 3.8059 85.6056 4.08114C93.4615 4.23685 101.31 4.19294 109.1 3.73802C112.339 3.54925 111.138 0.335227 107.864 0.579876C106.76 0.663362 105.659 0.739552 104.565 0.863324C102.073 1.14555 102.726 3.3078 105.026 3.52829C106.155 3.63762 107.281 3.69954 108.415 3.76676C108.233 2.70535 108.047 1.64129 107.864 0.579876C94.1906 1.43219 80.3242 0.809093 66.5559 0.499015C52.5971 0.183481 38.6526 0.192408 24.7466 0.611512C16.9777 0.845585 9.2143 1.13968 1.51392 1.73286C0.333568 1.82315 0.540364 3.05997 1.74487 3.05788L1.74884 3.05805Z"
+                                    fill="#1D6FB8" />
+                            </svg>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="">Home</a>
+                                <li><a href="#" class="">About </a></li>
+                                <li><a href="#" class="">Resources</a></li>
+                                <li><a href="#" class="">Career</a></li>
+                                <li><a href="#" class="">Contact Us</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Services -->
+                        <div class="col-xl-2 ">
+                            <h5>Services</h5>
+                            <svg width="111" height="5" viewBox="0 0 111 5" class="svg-bottom" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M1.74884 3.05805C15.7577 3.03187 29.7462 2.82548 43.7702 3.00671C57.7188 3.18729 71.657 3.8059 85.6056 4.08114C93.4615 4.23685 101.31 4.19294 109.1 3.73802C112.339 3.54925 111.138 0.335227 107.864 0.579876C106.76 0.663362 105.659 0.739552 104.565 0.863324C102.073 1.14555 102.726 3.3078 105.026 3.52829C106.155 3.63762 107.281 3.69954 108.415 3.76676C108.233 2.70535 108.047 1.64129 107.864 0.579876C94.1906 1.43219 80.3242 0.809093 66.5559 0.499015C52.5971 0.183481 38.6526 0.192408 24.7466 0.611512C16.9777 0.845585 9.2143 1.13968 1.51392 1.73286C0.333568 1.82315 0.540364 3.05997 1.74487 3.05788L1.74884 3.05805Z"
+                                    fill="#1D6FB8" />
+                            </svg>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="">Rulebook Updates</a></li>
+                                <li><a href="#" class="">Fee Schedule Updates</a></li>
+                                <li><a href="#" class="">Regulator Updates</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Contact Info -->
+                        <div class="col-xl-3 ">
+                            <h5>Contact Us</h5>
+                            <svg width="111" height="5" viewBox="0 0 111 5" class="svg-bottom" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M1.74884 3.05805C15.7577 3.03187 29.7462 2.82548 43.7702 3.00671C57.7188 3.18729 71.657 3.8059 85.6056 4.08114C93.4615 4.23685 101.31 4.19294 109.1 3.73802C112.339 3.54925 111.138 0.335227 107.864 0.579876C106.76 0.663362 105.659 0.739552 104.565 0.863324C102.073 1.14555 102.726 3.3078 105.026 3.52829C106.155 3.63762 107.281 3.69954 108.415 3.76676C108.233 2.70535 108.047 1.64129 107.864 0.579876C94.1906 1.43219 80.3242 0.809093 66.5559 0.499015C52.5971 0.183481 38.6526 0.192408 24.7466 0.611512C16.9777 0.845585 9.2143 1.13968 1.51392 1.73286C0.333568 1.82315 0.540364 3.05997 1.74487 3.05788L1.74884 3.05805Z"
+                                    fill="#1D6FB8" />
+                            </svg>
+                            <ul class="list-unstyled">
+                                <li><a href="">
+                                        <div class="icone">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" class="svg-right"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M13.1667 7.33333C14.0949 7.33333 14.9852 7.70208 15.6415 8.35846C16.2979 9.01484 16.6667 9.90508 16.6667 10.8333C16.6667 11.1428 16.7896 11.4395 17.0084 11.6583C17.2272 11.8771 17.5239 12 17.8333 12C18.1428 12 18.4395 11.8771 18.6583 11.6583C18.8771 11.4395 19 11.1428 19 10.8333C19 9.28624 18.3854 7.80251 17.2915 6.70854C16.1975 5.61458 14.7138 5 13.1667 5C12.8572 5 12.5605 5.12292 12.3417 5.34171C12.1229 5.5605 12 5.85725 12 6.16667C12 6.47609 12.1229 6.77283 12.3417 6.99162C12.5605 7.21042 12.8572 7.33333 13.1667 7.33333Z"
+                                                    fill="#1D6FB8" />
+                                                <path
+                                                    d="M13.1 3.2C15.1422 3.2 17.1007 4.01125 18.5447 5.45528C19.9887 6.89931 20.8 8.85783 20.8 10.9C20.8 11.1917 20.9159 11.4715 21.1222 11.6778C21.3285 11.8841 21.6083 12 21.9 12C22.1917 12 22.4715 11.8841 22.6778 11.6778C22.8841 11.4715 23 11.1917 23 10.9C23 8.27436 21.957 5.75625 20.1004 3.89964C18.2437 2.04303 15.7256 1 13.1 1C12.8083 1 12.5285 1.11589 12.3222 1.32218C12.1159 1.52847 12 1.80826 12 2.1C12 2.39174 12.1159 2.67153 12.3222 2.87782C12.5285 3.08411 12.8083 3.2 13.1 3.2ZM22.725 16.301C22.6645 16.1244 22.56 15.9661 22.4215 15.841C22.2829 15.716 22.1148 15.6282 21.933 15.586L15.333 14.079C15.1538 14.0384 14.9674 14.0433 14.7906 14.0932C14.6138 14.1432 14.4524 14.2366 14.321 14.365C14.167 14.508 14.156 14.519 13.441 15.883C11.0685 14.7898 9.16749 12.8809 8.084 10.504C9.481 9.8 9.492 9.8 9.635 9.635C9.76338 9.50361 9.85681 9.34216 9.90677 9.16539C9.95673 8.98862 9.96162 8.80215 9.921 8.623L8.414 2.1C8.37181 1.91817 8.28404 1.75006 8.15896 1.6115C8.03387 1.47295 7.87559 1.3685 7.699 1.308C7.44211 1.21625 7.17684 1.14993 6.907 1.11C6.62898 1.04553 6.34527 1.00869 6.06 1C4.718 1 3.43097 1.53311 2.48204 2.48204C1.53311 3.43097 1 4.718 1 6.06C1.00582 10.551 2.79243 14.8564 5.96804 18.032C9.14364 21.2076 13.449 22.9942 17.94 23C18.6045 23 19.2625 22.8691 19.8764 22.6148C20.4903 22.3605 21.0481 21.9878 21.518 21.518C21.9878 21.0481 22.3605 20.4903 22.6148 19.8764C22.8691 19.2625 23 18.6045 23 17.94C23.0003 17.66 22.9783 17.3805 22.934 17.104C22.8878 16.8308 22.8178 16.5621 22.725 16.301Z"
+                                                    fill="#1D6FB8" />
+                                            </svg>
+                                        </div>
+                                        <div class="icone-text">
+                                            +91 00000 00000
+                                        </div>
+                                    </a></li>
+                                <li><a href="">
+                                        <div class="icone"><svg width="24" height="24" viewBox="0 0 24 24"
+                                                class="svg-right" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M17.7625 14.7196C17.7625 15.771 18.0613 16.1902 18.8425 16.1902C20.5838 16.1902 21.6925 13.9687 21.6925 10.2741C21.6925 4.62703 17.5825 1.92365 12.4513 1.92365C7.1725 1.92365 2.37125 5.46808 2.37125 12.1665C2.37125 18.5645 6.57125 22.0488 13.0213 22.0488C15.2113 22.0488 16.6813 21.8085 18.93 21.0576L19.4125 23.0688C17.1925 23.791 14.82 24 12.9913 24C4.53125 24 0 19.3442 0 12.1652C0 4.92616 5.25125 0 12.4813 0C20.0113 0 24 4.50563 24 10.0325C24 14.7184 22.5313 18.2929 17.9113 18.2929C15.81 18.2929 14.4313 17.4518 14.2513 15.5882C13.7113 17.6608 12.2713 18.2929 10.32 18.2929C7.71 18.2929 5.52 16.2791 5.52 12.2253C5.52 8.14017 7.44125 5.61702 10.8913 5.61702C12.7213 5.61702 13.8613 6.33792 14.3688 7.47935L15.24 5.88736H17.76V14.7196H17.7625ZM14.0738 10.7547C14.0738 9.10388 12.8425 8.41176 11.8225 8.41176C10.7125 8.41176 9.48375 9.31164 9.48375 11.9562C9.48375 14.0588 10.4138 15.2303 11.8225 15.2303C12.8125 15.2303 14.0738 14.5995 14.0738 12.8573V10.7547Z"
+                                                    fill="#1D6FB8" />
+                                            </svg></div>
+                                        <div class="icone-text">info@rulebook.com</div>
+                                    </a></li>
+                                <li><a href="">
+                                        <div class="icone"><svg width="27" height="32" viewBox="0 0 27 32"
+                                                class="svg-right" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0.931295 13.5943C0.931295 20.5358 13.5001 31.8812 13.5001 31.8812C13.5001 31.8812 26.069 20.5358 26.069 13.5943C26.069 6.65268 20.4417 1.02539 13.5001 1.02539C6.55852 1.02539 0.931295 6.65268 0.931295 13.5943Z"
+                                                    fill="#1D6FB8" />
+                                                <path
+                                                    d="M6.74998 20.25C3.02206 16.5221 3.02206 10.4779 6.74998 6.75C10.4779 3.02207 16.5221 3.02207 20.25 6.74999C23.9779 10.4779 23.9779 16.5221 20.25 20.25C16.5221 23.9779 10.4779 23.9779 6.74998 20.25Z"
+                                                    fill="#1D6FB8" />
+                                                <path
+                                                    d="M7.62832 13.5001C7.62832 16.7427 10.2568 19.3713 13.4995 19.3713C16.7421 19.3713 19.3708 16.7427 19.3708 13.5001C19.3708 10.2575 16.742 7.62891 13.4995 7.62891C10.2568 7.62891 7.62832 10.2575 7.62832 13.5001Z"
+                                                    fill="black" />
+                                                <path
+                                                    d="M11.0696 13.5161C11.0696 14.8584 12.1577 15.9464 13.4998 15.9464C14.842 15.9464 15.9301 14.8584 15.9301 13.5161C15.9301 12.174 14.8421 11.0859 13.4998 11.0859C12.1577 11.0859 11.0696 12.174 11.0696 13.5161Z"
+                                                    fill="#1D6FB8" />
+                                            </svg></div>
+                                        <div class="icone-text">
+                                            129, Lorem Ipsum Dolor Sit 568889
+                                        </div>
+                                    </a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="row copy-right">
+                        <div class="col">
+                            <p>&copy; Copyright Rulebook
+                                <script>document.write(new Date().getFullYear())</script> - All rights reserved.
+                            </p>
+                        </div>
+                        <div class="col">
+                            <div class="social-icons">
+                                <p>Follow us on</p>
+                                <a href="#"><svg width="27" height="28" viewBox="0 0 27 28" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M23.7747 0.495117C24.5501 0.495117 25.2937 0.810844 25.842 1.37284C26.3903 1.93484 26.6983 2.69707 26.6983 3.49186V24.469C26.6983 25.2638 26.3903 26.0261 25.842 26.5881C25.2937 27.1501 24.5501 27.4658 23.7747 27.4658H3.30915C2.53375 27.4658 1.79011 27.1501 1.24182 26.5881C0.693524 26.0261 0.385498 25.2638 0.385498 24.469V3.49186C0.385498 2.69707 0.693524 1.93484 1.24182 1.37284C1.79011 0.810844 2.53375 0.495117 3.30915 0.495117H23.7747ZM23.0438 23.7199V15.7785C23.0438 14.483 22.5417 13.2406 21.648 12.3245C20.7543 11.4084 19.5421 10.8938 18.2782 10.8938C17.0357 10.8938 15.5885 11.673 14.8868 12.8417V11.1785H10.8083V23.7199H14.8868V16.3329C14.8868 15.1791 15.7931 14.2352 16.9187 14.2352C17.4615 14.2352 17.9821 14.4562 18.3659 14.8496C18.7497 15.243 18.9653 15.7765 18.9653 16.3329V23.7199H23.0438ZM6.05738 8.82606C6.70872 8.82606 7.33337 8.56085 7.79394 8.08877C8.2545 7.61669 8.51325 6.97642 8.51325 6.3088C8.51325 4.91531 7.41688 3.77655 6.05738 3.77655C5.40217 3.77655 4.77379 4.04334 4.31048 4.51823C3.84718 4.99311 3.58689 5.6372 3.58689 6.3088C3.58689 7.70228 4.69788 8.82606 6.05738 8.82606ZM8.08932 23.7199V11.1785H4.04006V23.7199H8.08932Z"
+                                            fill="#1D6FB8" />
+                                    </svg>
+                                </a>
+                                <a href="#"><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.0112 0.0566406C6.97116 0.0566406 0.392944 6.78433 0.392944 15.0703C0.392944 22.5622 5.74322 28.7804 12.7307 29.9042V19.4156H9.01771V15.0703H12.7307V11.7589C12.7307 7.99801 14.9089 5.93025 18.2564 5.93025C19.8498 5.93025 21.5163 6.21494 21.5163 6.21494V9.91592H19.6744C17.8618 9.91592 17.2916 11.0697 17.2916 12.2534V15.0703H21.3555L20.6977 19.4156H17.2916V29.9042C20.7364 29.3466 23.8731 27.545 26.1356 24.8248C28.3981 22.1046 29.6373 18.6449 29.6294 15.0703C29.6294 6.78433 23.0512 0.0566406 15.0112 0.0566406Z"
+                                            fill="#1D6FB8" />
+                                    </svg>
+                                </a>
+                                <a href="#"><svg width="29" height="26" viewBox="0 0 29 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M2.92253 1.46815C3.19381 1.43662 3.46855 1.47984 3.71706 1.59313C3.96556 1.70642 4.17837 1.88548 4.33249 2.11095C6.54409 5.34593 9.1992 6.69147 12.1465 6.99714C12.2903 5.73701 12.6305 4.49186 13.2703 3.39505C14.2083 1.7858 15.7336 0.602091 17.9122 0.164566C20.924 -0.440775 23.2165 0.650039 24.5455 1.98509L27.2306 1.48313C27.5116 1.43049 27.8017 1.45931 28.0669 1.56621C28.332 1.67312 28.561 1.85363 28.7269 2.08645C28.8928 2.31927 28.9886 2.59468 29.003 2.88018C29.0174 3.16568 28.9499 3.44936 28.8084 3.69772L26.2312 8.2258C26.4664 14.7602 24.6504 19.3212 20.7786 22.4633C18.7258 24.1295 15.786 25.075 12.56 25.3672C9.30858 25.6608 5.63308 25.3057 1.98005 24.2389C1.66793 24.1478 1.39389 23.9577 1.19929 23.6973C1.00469 23.4368 0.900089 23.1201 0.901273 22.795C0.902457 22.4699 1.00936 22.154 1.20585 21.8949C1.40235 21.6359 1.67776 21.4478 1.99054 21.359C3.82754 20.8361 5.22702 20.3851 6.49015 19.5954C4.6936 18.6425 3.37054 17.3958 2.43406 15.9754C1.13347 14.0005 0.650998 11.7979 0.555103 9.81258C0.459207 7.82723 0.745396 5.98723 1.04807 4.66118C1.22038 3.9045 1.42116 3.14632 1.69836 2.42111C1.79614 2.16548 1.96207 1.9415 2.17814 1.7735C2.39421 1.60551 2.65068 1.4999 2.92253 1.46815Z"
+                                            fill="#1D6FB8" />
+                                    </svg>
+                                </a>
+                                <a href="#"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.7961 9.50988C11.3211 9.50988 9.32568 11.5245 9.32568 13.9803C9.32568 16.4362 11.3403 18.4508 13.7961 18.4508C16.252 18.4508 18.2666 16.4362 18.2666 13.9803C18.2666 11.5245 16.252 9.50988 13.7961 9.50988ZM27.2266 13.9803C27.2266 12.1192 27.2266 10.2965 27.1307 8.43544C27.0348 6.28655 26.5359 4.36791 24.9626 2.81381C23.3893 1.24052 21.4899 0.741669 19.341 0.645737C17.4799 0.549805 15.6572 0.549805 13.7961 0.549805C11.935 0.549805 10.1123 0.549805 8.25123 0.645737C6.10235 0.741669 4.18371 1.24052 2.6296 2.81381C1.05631 4.3871 0.557465 6.28655 0.461533 8.43544C0.3656 10.2965 0.365601 12.1192 0.365601 13.9803C0.365601 15.8414 0.3656 17.6641 0.461533 19.5252C0.557465 21.6741 1.05631 23.5927 2.6296 25.1468C4.20289 26.7201 6.10235 27.219 8.25123 27.3149C10.1123 27.4108 11.935 27.4108 13.7961 27.4108C15.6572 27.4108 17.4799 27.4108 19.341 27.3149C21.4899 27.219 23.4085 26.7201 24.9626 25.1468C26.5359 23.5735 27.0348 21.6741 27.1307 19.5252C27.2458 17.6833 27.2266 15.8414 27.2266 13.9803ZM13.7961 20.8683C9.97801 20.8683 6.90818 17.7984 6.90818 13.9803C6.90818 10.1622 9.97801 7.09238 13.7961 7.09238C17.6142 7.09238 20.6841 10.1622 20.6841 13.9803C20.6841 17.7984 17.6142 20.8683 13.7961 20.8683ZM20.9719 8.41625C20.0893 8.41625 19.3602 7.70635 19.3602 6.80459C19.3602 5.90283 20.0701 5.19293 20.9719 5.19293C21.8736 5.19293 22.5835 5.90283 22.5835 6.80459C22.5884 7.01475 22.55 7.22367 22.4708 7.41839C22.3916 7.61312 22.2732 7.78949 22.123 7.93659C21.9759 8.08677 21.7996 8.20513 21.6048 8.28434C21.4101 8.36355 21.2012 8.40192 20.991 8.39706L20.9719 8.41625Z"
+                                            fill="#1D6FB8" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/lenis.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>

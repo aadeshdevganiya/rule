@@ -1,0 +1,338 @@
+.about-rulebook {
+    padding: 171px 0 232px 0;
+
+}
+
+.about-rulebook .about-img {
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-image: url(../images/Clip\ path\ group.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-blend-mode: darken;
+    background-color: #000000bf;
+}
+
+.about-rulebook .about-img img {
+    width: 1349px;
+    height: 649px;
+
+}
+
+.about-rulebook a img {
+    width: 170px !important;
+    position: absolute;
+    height: 170px !important;
+    top: 38%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    animation: buttonAnimation 2s infinite;
+}
+
+/* Base Styles */
+.services-rulebook {
+    background-image: url(../images/Group\ \(1\).png);
+    background-position: 65% 99%;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+}
+
+/* technology-rulebook */
+
+.technology-rulebook {
+    padding: 152px 0 140px 0;
+    position: relative;
+}
+
+.technology-rulebook .common-heading {
+    position: relative;
+    text-align: start;
+    margin-left: 42px;
+}
+
+.technology-rulebook .common-heading p {
+    width: 100%;
+    margin: 0px;
+}
+
+.technology-rulebook .common-btn {
+    margin-top: 63px;
+}
+
+.technology-rulebook img {
+    width: 98%;
+}
+
+.technology-rulebook .shadow-text {
+    font-size: 7.813vw;
+}
+
+.technology-rulebook .row {
+    align-items: end;
+}
+
+
+
+
+/* responsive-design */
+
+@media (min-width:1400px) {
+    .technology-rulebook .shadow-text {
+        letter-spacing: 11.5px;
+    }
+}
+
+@media (max-width : 1399px) {
+
+    .banner-section .banner-about {
+        padding-top: 100px;
+    }
+
+    .about-rulebook a img {
+        top: 37%;
+        left: 44%;
+    }
+
+    .about-rulebook {
+        padding: 120px 0 150px 0;
+    }
+
+    .about-rulebook .about-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .technology-rulebook .shadow-text {
+        font-size: 6.813vw;
+        text-align: start;
+    }
+
+    .technology-rulebook .common-btn {
+        margin-top: 29px !important;
+    }
+
+    .technology-rulebook .common-heading p {
+        font-size: 20px;
+        line-height: 31.6px;
+    }
+
+    .technology-rulebook .common-heading h2,
+    .rulebook-companys .common-heading h2 {
+        font-size: 46px;
+        line-height: 73.32px;
+        margin-bottom: 17px;
+    }
+
+    .technology-rulebook img {
+        width: 100%;
+    }
+
+    .services-rulebook {
+        background: unset;
+    }
+
+    .technology-rulebook {
+        padding: 80px 0 20px 0px;
+    }
+
+    .technology-rulebook .shadow-text,
+    .services-rulebook .shadow-text {
+        font-size: 80px;
+        top: -112px;
+
+    }
+
+    .about-rulebook .about-img img {
+        width: 90%;
+        max-width: 100%;
+        height: auto;
+        margin: 0 15px;
+    }
+
+    .banner-section {
+        background-position: 100% 80%;
+    }
+}
+
+@media (max-width: 1199px) {
+
+    .card-main h4 {
+        font-size: 28px;
+    }
+
+    .card-main ul li {
+        font-size: 17px;
+    }
+
+    .about-rulebook a img {
+        width: 150px !important;
+        height: 150px !important;
+        top: 35%;
+        left: 43%;
+    }
+
+    .technology-rulebook .row {
+        align-items: center;
+        gap: 120px;
+    }
+
+    .technology-rulebook .common-heading {
+        position: relative;
+        text-align: start;
+        margin-left: 0px;
+    }
+
+    .technology-rulebook .shadow-text {
+        font-size: 100px;
+        letter-spacing: 7.8px;
+        top: -115px;
+    }
+
+    .technology-rulebook {
+        padding: 10px 0px 0px 0px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .about-rulebook a img {
+        width: 130px !important;
+        height: 130px !important;
+        top: 33%;
+        left: 41%;
+    }
+
+    .card-main h4 {
+        font-size: 26px;
+    }
+
+    .card-main ul li {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+}
+
+@media(max-width: 767px) {
+    
+    .card-main h4 {
+        font-size: 24px;
+        margin-top: 40px;
+    }
+
+    .card-main ul li {
+        font-size: 15px;
+    }
+
+    .about-rulebook a img {
+        width: 110px !important;
+        height: 110px !important;
+        top: 30%;
+        left: 40%;
+    }
+
+    .technology-rulebook .shadow-text {
+        font-size: 77px;
+        letter-spacing: 7.8px;
+        top: -105px;
+    }
+
+    .technology-rulebook .common-heading p {
+        font-size: 18px;
+        line-height: 27.6px;
+    }
+
+    .technology-rulebook .common-heading h2{
+        font-size: 36px;
+    }
+
+    .about-rulebook {
+        padding: 150px 0 140px 0;
+    }
+}
+
+@media (max-width : 575px) {
+    .technology-rulebook .shadow-text {
+        font-size: 64px;
+        letter-spacing: 7.8px;
+        top: -94px;
+    }
+
+    .technology-rulebook .common-heading h2,
+    .rulebook-companys .common-heading h2 {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    
+
+    .about-rulebook a img {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .services-rulebook .row {
+        padding: 40px 0;
+    }
+
+    .services-rulebook .row {
+        row-gap: 0;
+    }
+
+    .technology-rulebook .shadow-text {
+        font-size: 48px;
+        letter-spacing: 6.8px;
+        top: -95px;
+    }
+
+    .technology-rulebook .common-heading h2 {
+        font-size: 28px;
+    }
+
+    .rulebook-companys .shadow-text {
+        font-size: clamp(7vw, 2.6vh, 113px);
+        letter-spacing: 1.7px;
+    }
+
+    .technology-rulebook .common-heading h2 {
+        font-size: 28px;
+    }
+
+    .about-rulebook {
+        padding: 90px 0 70px 0;
+    }
+}
+
+@media (max-width:450px) {
+    .about-rulebook a img {
+        width: 90px !important;
+        height: 90px !important;
+        top: 26%;
+        left: 40%;
+    }
+
+    .technology-rulebook .common-heading h2{
+        font-size: 24px;
+    }
+    
+}
+
+@media (max-width:400px) {
+    .about-rulebook a img {
+        width: 80px !important;
+        height: 80px !important;
+        top: 49px;
+        left: 37%;
+    }
+}
+
+@media (max-width:362px) {
+    .technology-rulebook .common-heading h2 {
+        font-size: 26px;
+    }
+}
+
